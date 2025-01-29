@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Harvel Electric</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+        <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+
+    <div class="login-container">
+        <!-- Left Section -->
+        <div class="left-section">
+            <h2>Welcome!</h2>
+            <p>Create your account. <strong>For Free!</strong></p>
+            <a href="./registration.html" class="btn-signup">Sign Up</a>
+        </div>
+
+        <!-- Right Section (Login Form) -->
+        <div class="right-section">
+            <h3 class="fw-bold text-muted">Login to Harvel Electric</h3>
+            <form id="loginForm" onsubmit="return signIn()">
+                <div class="form-group">
+                    <label for="username">Username/Email address *</label>
+                    <input type="text" id="username" class="form-control" placeholder="Username or Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password *</label>
+                    <input type="password" id="password" class="form-control" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn btn-login">Sign In</button>
+                <div class="forgot-password">
+                    <p><a href="#">Forgot password?</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Custom Modal for Thank You -->
+    <div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: rgb(107, 31, 248); color: white;">
+                    <h5 class="modal-title" id="thankYouModalLabel">Thank You!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You have successfully signed in. Redirecting to the home page...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function signIn() {
+            // Get values from the form
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            // Check if the username and password fields are filled
+            if (username && password) {
+                // thank you ka modal show krega ye popup wala
+                let modal = new bootstrap.Modal(document.getElementById('thankYouModal'));
+                modal.show();
+
+                // Rhome page pr wapis jayega 3 sec mai
+                setTimeout(function () {
+                    window.location.href = "index.html";
+                }, 3000);
+            } else {
+                alert("Please fill in both username and password.");
+            }
+            return false; // Prevent the form from submitting
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

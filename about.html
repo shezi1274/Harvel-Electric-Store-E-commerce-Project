@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvel Electric - About Us</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding-top: 50px;
+        }
+
+        /* Header */
+        header {
+            background-color: rgb(107, 31, 248); /* Header color */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+
+        /* About Section */
+        .about-section {
+            width: 80%;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .about-section h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .about-section p {
+            font-size: 1.1rem;
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .about-section a {
+            display: inline-block;
+            background-color: rgb(107, 31, 248); /* Button color */
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            border: 2px solid rgb(107, 31, 248); /* Adding border for more contrast */
+        }
+
+        .about-section a:hover {
+            background-color: #1e488f;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgb(107, 31, 248); /* Footer color */
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 id="gotohome">Harvel Electric</h1>
+    </header>
+
+    <div class="about-section">
+        <h2>About Us</h2>
+        <p>Welcome to Harvel Electric, where quality meets innovation! We specialize in offering top-notch electronic products that help modernize your home and improve your lifestyle. Whether you’re upgrading your kitchen with the latest appliances or adding the newest gadgets to your home office, we have something for everyone. Our products are designed to be both functional and stylish, ensuring that your home is equipped with the best technology available.</p>
+        <p>At Harvel Electric, we are committed to providing unbeatable prices and exceptional customer service. We believe in making high-quality electronics accessible to everyone, and we offer exclusive limited-time offers to make shopping even more rewarding. Shop with us today and experience the future of home technology.</p>
+        <a href="./product.html">Shop Now</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Harvel Electric. All Rights Reserved.</p>
+    </footer>
+ 
+
+    <script>
+        document.getElementById("gotohome").addEventListener( 'click' , function () {
+            window.location.href = "./index.html"
+        })
+    </script>
+</body>
+</html>

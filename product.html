@@ -1,0 +1,919 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Harvel Electric</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- contact CSS -->
+     <link rel="stylesheet" href="./contact.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+
+
+</head>
+
+<body>
+
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" id="logo"><span id="span1">H</span>arvel
+                <span>Electric</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><img src="./images/menu.png" alt="" width="30px"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <!-- Dropdown list -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Category
+                        </a>
+                        <!-- Navbar Dropdown -->
+                        <ul class="dropdown-menu " aria-labelledby="navbarDropdown"
+                            style="background-color: rgb(107, 31, 248);">
+                            <li><a class="dropdown-item btn-custom" href="#" data-information="All">All</a></li>
+                            <li><a class="dropdown-item btn-custom" href="#" data-information="PC & Monitor">Pc &
+                                    Monitor</a></li>
+                            <li><a class="dropdown-item btn-custom" href="#" data-information="Mobile Phone">Mobile
+                                    Phone</a></li>
+                            <li><a class="dropdown-item btn-custom" href="#" data-information="Cameras">Cameras</a></li>
+                            <li><a class="dropdown-item btn-custom" href="#" data-information="Fridge">Fridge</a></li>
+                            <li><a class="dropdown-item btn-custom" href="#" data-information="AC">AC</a></li>
+                            <li><a class="dropdown-item btn-custom" href="#" data-information="Smart Watch">Smart
+                                    Watch</a></li>
+                            <li><a class="dropdown-item btn-custom" href="#" data-information="Headphone">Headphone</a>
+                            </li>
+                            <li><a class="dropdown-item btn-custom" href="#" data-information="Laptop">Laptop</a></li>
+                            <li><a class="dropdown-item btn-custom" href="#" data-information="Microwave">Microwave</a>
+                            </li>
+                            <li><a class="dropdown-item btn-custom" href="#" data-information="Washing Machine">Washing
+                                    Machine</a></li>
+                        </ul>
+                    </li>
+                    <!-- drop down end -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="contactNavLink">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" id="search">
+                    <input class="form-control me-2" type="search" id="search-bar" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success me-3" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+
+
+    <!-- product cards  -->
+
+    <div class="container" id="product-cards">
+        <h1 class="text-start mb-1">OUR PRODUCTS</h1>
+        <div class="row" style="margin-top: 30px;">
+
+            <div class="container" id="product-cards">
+
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card" data-information="Washing Machine">
+                            <img src="./images/pr1.png" alt="">
+                            <div class="card-body">
+                                <h3 class="text-center">Washing Machine</h3>
+                                <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                                <div class="star text-center">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h2>$100.50 <span>
+                                        <li class="fa-solid fa-cart-shopping"></li>
+                                    </span></h2>
+                            </div>
+                            <div class="shop-now">Add to Cart</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card" data-information="AC">
+                            <img src="./images/pr2.png" alt="">
+                            <div class="card-body">
+                                <h3 class="text-center">AC</h3>
+                                <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                                <div class="star text-center">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h2>$500 <span>
+                                        <li class="fa-solid fa-cart-shopping"></li>
+                                    </span></h2>
+                            </div>
+                            <div class="shop-now">Add to Cart</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card" data-information="Microwave">
+                            <img src="./images/pr3.png" alt="">
+                            <div class="card-body">
+                                <h3 class="text-center">Microwave Oven</h3>
+                                <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                                <div class="star text-center">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h2>$200.30 <span>
+                                        <li class="fa-solid fa-cart-shopping"></li>
+                                    </span></h2>
+                            </div>
+                            <div class="shop-now">Add to Cart</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card" data-information="Fridge">
+                            <img src="./images/pr4.png" alt="">
+                            <div class="card-body">
+                                <h3 class="text-center">Fridge</h3>
+                                <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                                <div class="star text-center">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h2>$300 <span>
+                                        <li class="fa-solid fa-cart-shopping"></li>
+                                    </span></h2>
+                            </div>
+                            <div class="shop-now">Add to Cart</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card" data-information="Fan">
+                            <img src="./images/pr5.png" alt="">
+                            <div class="card-body">
+                                <h3 class="text-center">Fan</h3>
+                                <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                                <div class="star text-center">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h2>$50.60 <span>
+                                        <li class="fa-solid fa-cart-shopping"></li>
+                                    </span></h2>
+                            </div>
+                            <div class="shop-now">Add to Cart</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card" data-information="Fridge">
+                            <img src="./images/pr6.png" alt="">
+                            <div class="card-body">
+                                <h3 class="text-center">Fridge</h3>
+                                <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                                <div class="star text-center">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h2>$1500 <span>
+                                        <li class="fa-solid fa-cart-shopping"></li>
+                                    </span></h2>
+                            </div>
+                            <div class="shop-now">Add to Cart</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card" data-information="PC & Monitor">
+                            <img src="./images/pr7.png" alt="">
+                            <div class="card-body">
+                                <h3 class="text-center">Gaming PC</h3>
+                                <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                                <div class="star text-center">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h2>500.60 <span>
+                                        <li class="fa-solid fa-cart-shopping"></li>
+                                    </span></h2>
+                            </div>
+                            <div class="shop-now">Add to Cart</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card" data-information="PC & Monitor">
+                            <img src="./images/pr8.png" alt="">
+                            <div class="card-body">
+                                <h3 class="text-center">Moniter</h3>
+                                <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                                <div class="star text-center">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h2>$250 <span>
+                                        <li class="fa-solid fa-cart-shopping"></li>
+                                    </span></h2>
+                            </div>
+                            <div class="shop-now">Add to Cart</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card" data-information="Smart Watch">
+                            <img src="./images/pr9.png" alt="">
+                            <div class="card-body">
+                                <h3 class="text-center">Smart Watch</h3>
+                                <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                                <div class="star text-center">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h2>$30.20 <span>
+                                        <li class="fa-solid fa-cart-shopping"></li>
+                                    </span></h2>
+                            </div>
+                            <div class="shop-now">Add to Cart</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card" data-information="Power Bank">
+                            <img src="./images/pr10.png" alt="">
+                            <div class="card-body">
+                                <h3 class="text-center">Power Bank</h3>
+                                <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                                <div class="star text-center">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h2>$100.50 <span>
+                                        <li class="fa-solid fa-cart-shopping"></li>
+                                    </span></h2>
+                            </div>
+                            <div class="shop-now">Add to Cart</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card" data-information="Gaming">
+                            <img src="./images/pr11.png" alt="">
+                            <div class="card-body">
+                                <h3 class="text-center">Gaming Mouse</h3>
+                                <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                                <div class="star text-center">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h2>$30 <span>
+                                        <li class="fa-solid fa-cart-shopping"></li>
+                                    </span></h2>
+                            </div>
+                            <div class="shop-now">Add to Cart</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card" data-information="Gaming">
+                            <img src="./images/pr12.png" alt="">
+                            <div class="card-body">
+                                <h3 class="text-center">Joysticks</h3>
+                                <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                                <div class="star text-center">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h2>$150 <span>
+                                        <li class="fa-solid fa-cart-shopping"></li>
+                                    </span></h2>
+                            </div>
+                            <div class="shop-now">Add to Cart</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- product cards -->
+
+
+            <!-- product cards -->
+
+            <!-- Card 1 -->
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card" data-information="Mobile Phone">
+                    <img src="./images/p6.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Iphone 13 pro</h3>
+                        <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>$1000 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span></h2>
+                    </div>
+                    <div class="shop-now">Add to Cart</div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card" data-information="Airpods">
+                    <img src="./images/a1.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Airpods</h3>
+                        <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>$100 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span></h2>
+                    </div>
+                    <div class="shop-now">Add to Cart</div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card" data-information="Laptop">
+                    <img src="./images/laptop2.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Laptop</h3>
+                        <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>$200 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span></h2>
+                    </div>
+                    <div class="shop-now">Add to Cart</div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card" data-information="Ipad">
+                    <img src="./images/t1.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Ipad</h3>
+                        <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>$300 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span></h2>
+                    </div>
+                    <div class="shop-now">Add to Cart</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+            <!-- Card 5 -->
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card" data-information="Smart Watch">
+                    <img src="./images/w1.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Smart Watch</h3>
+                        <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>$50.60 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span></h2>
+                    </div>
+                    <div class="shop-now">Add to Cart</div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card" data-information="Monitor">
+                    <img src="./images/pcm1.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">PC Moniter</h3>
+                        <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>$600 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span></h2>
+                    </div>
+                    <div class="shop-now">Add to Cart</div>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card" data-information="Mobile Phone">
+                    <img src="./images/phone1.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">iPhone x</h3>
+                        <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>$500 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span></h2>
+                    </div>
+                    <div class="shop-now">Add to Cart</div>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card" data-information="Headphone">
+                    <img src="./images/h1.png" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Headphone</h3>
+                        <!-- <p class="text-center">Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>$60 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span></h2>
+                    </div>
+                    <div class="shop-now">Add to Cart</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- product cards -->
+
+
+    <!-- Overlay for popup -->
+    <div id="popupOverlay" class="popup-overlay"></div>
+
+
+    <!-- Popup Content -->
+    <div id="productPopup" class="popup">
+        <span id="closePopup" class="close">&times;</span>
+        <div class="popup-content">
+            <img id="popupImage" src="" alt="Product Image" class="popup-image">
+            <h3 id="popupName">Product Name</h3>
+            <p id="popupPrice">Price: $0.00</p>
+            <hr>
+            <div class="quantity-and-button">
+                <button id="decreaseQuantity" class="quantity-btn">-</button>
+                <span id="quantityDisplay">1</span>
+                <button id="increaseQuantity" class="quantity-btn">+</button>
+            </div>
+            <button id="addToCartButton">Add to Cart</button>
+        </div>
+    </div>
+
+
+
+    <!-- order details or Information Popup -->
+    <div id="billingPopup" class="popup w-25">
+        <span id="closeBillingPopup" class="close">&times;</span>
+        <div class="popup-content text-center p-4">
+            <h3 class="fs-2 fw-bold text-muted fs-1">Order Confirmation</h3>
+            <hr>
+            <p class="text-dark"><strong>Product Name:</strong> <span id="billingProductName"></span></p>
+            <p class="text-dark"><strong>Price:</strong> <span id="billingProductPrice"></span></p>
+
+            <p class="text-dark"><strong>Quantity:</strong> <span id="billingQuantity"></span></p>
+            <p class="text-dark fw-bold text-muted mt-2" id="billingTotalPrice">Total Price: $0.00</p>
+
+
+            <button id="confirmPurchase" class="btn btn-success d-inline-block me-3 mt-3" data-bs-toggle="modal"
+                data-bs-target="#billingModal"> Order Now</button>
+            <button id="cancelPurchase" class=" btn btn-danger d-inline-block mt-3"> Cancel</button>
+        </div>
+    </div>
+    <!-- End order details or Information Popup -->
+
+    <!-- Modal for Billing Details -->
+    <div class="modal fade" id="billingModal" tabindex="-1" aria-labelledby="billingModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="billingModalLabel">Billing Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="billingForm">
+                        <!-- Full Name -->
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="fullName" name="fullName"
+                                placeholder="Enter your name" required>
+                        </div>
+                        <!-- Email Address -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="Enter your email" required>
+                        </div>
+                        <!-- Payment Method -->
+                        <div class="mb-3">
+                            <label for="paymentMethod" class="form-label">Payment Method</label>
+                            <select class="form-select" id="paymentMethod" name="paymentMethod" required>
+                                <option value="" selected disabled>Select Payment Method</option>
+                                <option value="cash">Cash</option>
+                                <option value="creditCard">Credit/Debit Card</option>
+                                <option value="digital">Digital Wallet (e.g., PayPal, Google Pay)</option>
+                            </select>
+                        </div>
+                        <!-- Card Payment Details -->
+                        <div id="cardDetails" class="mb-3" style="display: none;">
+                            <label for="cardHolderName" class="form-label">Cardholder Name</label>
+                            <input type="text" class="form-control" id="cardHolderName" name="cardHolderName"
+                                placeholder="Enter cardholder name" required>
+
+                            <label for="cardLast4" class="form-label mt-3">Last 4 Digits of Card</label>
+                            <input type="text" class="form-control" id="cardLast4" name="cardLast4"
+                                placeholder="e.g., 1234" maxlength="4" required>
+
+                            <label for="cardTransactionId" class="form-label mt-3">Transaction ID</label>
+                            <input type="text" class="form-control" id="cardTransactionId" name="cardTransactionId"
+                                placeholder="Enter transaction ID" required>
+
+                            <label for="paymentDate" class="form-label mt-3">Payment Date</label>
+                            <input type="date" class="form-control" id="paymentDate" name="paymentDate" required>
+                        </div>
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Message Modal -->
+    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header" style="  background-color: rgb(131, 69, 247);">
+                    <h5 class="modal-title" id="successModalLabel">Success</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Your billing and Order details have been successfully submitted!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Scroll Top Button -->
+    <div id="scrollTop" onclick="scrollToTop()">
+        ↑
+    </div>
+
+
+
+    <!-- offer -->
+    <div class="container" id="offer">
+        <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h3>Free Shipping</h3>
+                <p>On order over $1000</p>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <i class="fa-solid fa-rotate-left"></i>
+                <h3>Free Returns</h3>
+                <p>Within 30 days</p>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <i class="fa-solid fa-truck"></i>
+                <h3>Fast Delivery</h3>
+                <p>World Wide</p>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <h3>Big choice</h3>
+                <p>Of products</p>
+            </div>
+        </div>
+    </div>
+    <!-- offer -->
+
+
+
+    <!-- Bootstrap Modal -->
+    <!-- product not availble popup -->
+    <div class="modal fade" id="productNotFoundModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: rgb(107, 31, 248); color: white;">
+                    <h5 class="modal-title" id="exampleModalLabel">Product Not Found</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    The product you are looking for is not available.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Subscribe Section -->
+    <div class="container" id="newslater">
+        <h3 class="text-center">Subscribe To The Harvel Electric Store For Latest Upload.</h3>
+        <div class="input text-center">
+            <input type="text" id="emailInput" placeholder="Enter Your Email..">
+            <button id="subscribe">SUBSCRIBE</button>
+        </div>
+        <div id="subscribeMessage" style="margin-top: 10px;"></div>
+    </div>
+
+
+    <!-- COntact us page code -->
+
+    <!-- Contact Us Button -->
+    <button id="contactBtn">
+        <i class="fas fa-envelope"></i> Contact Us
+    </button>
+
+
+    <div id="overlay"></div>
+
+    <div id="contactPopup">
+        <h2>Contact Us</h2>
+        <p class="mb-2"><strong>📞 Phone:</strong> +1 (555) 123-4567</p>
+        <p class="mb-2"><strong>✉️ Email:</strong> support@example.com</p>
+        <p class="mb-2"><strong>💬 Live Chat:</strong> Available 24/7</p>
+
+        <h3 class="mt-4 fw-bold text-muted text-center">Send us a Message</h3>
+        <form id="contactForm">
+            <input class="form-control" type="text" id="name" placeholder="Your Name" required>
+            <input class="form-control" type="email" id="email" placeholder="Your Email" required>
+            <textarea class="form-control" id="message" placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <h3 class="mt-3">Follow Us</h3>
+        <div class="social-icons">
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+
+    <!-- contact us end -->
+
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>Harvel Electric</h3>
+                        <p>
+                            Karachi <br>
+                            Sindh <br>
+                            Pakistan <br>
+                        </p>
+                        <strong>Phone:</strong> +923217655209 <br>
+                        <strong>Email:</strong> harvel@example.com <br>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Usefull Links</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Terms of service</a></li>
+                            <li><a href="#">Privacy policey</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+
+                        <ul>
+                            <li><a href="#">PS 5</a></li>
+                            <li><a href="#">Computer</a></li>
+                            <li><a href="#">Gaming Laptop</a></li>
+                            <li><a href="#">Mobile Phone</a></li>
+                            <li><a href="#">Gaming Gadget</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Social Networks</h4>
+                        <p>Stay connected with us on social media for updates, offers, and more!</p>
+
+                        <div class="socail-links mt-3">
+                            <!-- <a href="#"><i class="fa-brands fa-twitter"></i></a> -->
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-skype"></i></a>
+                            <!-- <a href="#"><i class="fa-brands fa-linkedin"></i></a> -->
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container py-4">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Harvel Electric Store</span></strong>. All Rights Reserved
+            </div>
+            <!-- <div class="credits">
+                Designed by <a href="#">Maryam</a>
+            </div> -->
+        </div>
+    </footer>
+    <!-- footer -->
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+
+
+
+    <script>
+
+        $(document).ready(function () {
+            // When a category is clicked
+            $(".btn-custom").click(function () {
+                let category = $(this).data("category"); // Get selected category
+
+                if (category === "All") {
+                    // Show all products if "All" is selected
+                    $(".product").show();
+                } else {
+                    // Hide all products and show only those matching the selected category
+                    $(".product").hide().filter(`[data-category="${category}"]`).show();
+                }
+            });
+        });
+        
+          // Contact us page logic
+          const contactBtn = document.getElementById('contactBtn');
+        const contactNavLink = document.getElementById('contactNavLink'); // Navbar link
+        const contactPopup = document.getElementById('contactPopup');
+        const overlay = document.getElementById('overlay');
+
+        // Display the popup when contact button is clicked
+        contactBtn.addEventListener('click', () => {
+            contactPopup.style.display = 'block';
+            overlay.style.display = 'block';
+        });
+
+        // Display the popup when navbar "Contact" link is clicked
+        contactNavLink.addEventListener('click', (e) => {
+            e.preventDefault(); // Prevent page reload
+            contactPopup.style.display = 'block'; // Show the popup
+            overlay.style.display = 'block';
+        });
+
+        // Hide the popup when overlay is clicked
+        overlay.addEventListener('click', () => {
+            contactPopup.style.display = 'none';
+            overlay.style.display = 'none';
+        });
+
+        // Form submit event to close popup
+        const contactForm = document.getElementById('contactForm');
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Message Sent Successfully!✅');
+            contactPopup.style.display = 'none';
+            overlay.style.display = 'none';
+            contactForm.reset();
+        });
+
+
+    </script>
+
+    <!-- Subccribe button ki file  -->
+    <script src="./subscription.js"></script>
+
+    <!-- Crads filter ki file -->
+    <script src="category.js"></script>
+
+
+</body>
+
+</html>
