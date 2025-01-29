@@ -19,5 +19,5 @@ Bootstrap & jQuery for responsiveness and interactive features
 
 📞 Contact Us
 For any inquiries, feel free to reach out!
-📧 Email: khuzema10927@gmail.com
+📧 Email: Shezi10927@gmail.com
 📍 Location: Karachi, Pakistan
